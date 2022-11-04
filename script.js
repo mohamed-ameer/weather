@@ -27,7 +27,7 @@ search.addEventListener('keydown',async (e)=>{
     }
 })
 async function getWeatherByCountryName(countryName = 'cairo'){
-    let getApi = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=f3d5923d91424a4ebeb120358221710&q=${countryName}&days=3`)
+    let getApi = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=20584636844843f1aa9194424220411&q=${countryName}&days=3`)
     let getdata = await getApi.json()
     data = getdata        
                   
